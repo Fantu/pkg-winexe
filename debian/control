@@ -13,7 +13,8 @@ Build-Depends: debhelper (>= 9),
                libsamba-credentials-dev,
                libsmbclient-raw-dev,
                libtevent-dev,
-               libtalloc-dev
+               libtalloc-dev,
+               gcc-mingw-w64
 Standards-Version: 3.9.4
 Homepage: http://sourceforge.net/projects/winexe/
 Vcs-Git: git://winexe.git.sourceforge.net/gitroot/winexe/winexe
