@@ -1,12 +1,12 @@
 Source: winexe
 Section: net
 Priority: extra
-Maintainer: Fabio Fantoni <fabio.fantoni@heliman.it>
+Maintainer: Fabio Fantoni <fabio.fantoni@m2r.biz>
 Build-Depends: debhelper (>= 9), 
                autoconf (>= 2.53),
                python (>= 2.4.2), 
                python-dev,
-               samba4-dev (>= 4.0.0~beta2),
+               samba-dev (>= 4.0.8),
                libsamba-util-dev,
                libdcerpc-dev,
                libpopt-dev,
@@ -14,11 +14,14 @@ Build-Depends: debhelper (>= 9),
                libsmbclient-raw-dev,
                libtevent-dev,
                libtalloc-dev,
-               gcc-mingw-w64
+               gcc-mingw-w64,
+               samba-common-bin,
+               libndr-standard-dev,
+               libsamba-hostconfig-dev
 Standards-Version: 3.9.4
 Homepage: http://sourceforge.net/projects/winexe/
 Vcs-Git: git://winexe.git.sourceforge.net/gitroot/winexe/winexe
-Vcs-Browser: http://winexe.git.sourceforge.net/git/gitweb-index.cgi
+Vcs-Browser: http://sourceforge.net/p/winexe/winexe-waf/ci/master/tree/
 
 Package: winexe
 Architecture: linux-any
