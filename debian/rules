@@ -1,8 +1,8 @@
 #!/usr/bin/make -f
 
-export DEB_BUILD_HARDENING=1
-export DEB_BUILD_HARDENING_RELRO=1
-export DEB_BUILD_HARDENING_FORTIFY=1
+export DEB_BUILD_HARDENING=0
+export DEB_BUILD_HARDENING_RELRO=0
+export DEB_BUILD_HARDENING_FORTIFY=0
 
 %:
 	dh $@ --sourcedirectory=source

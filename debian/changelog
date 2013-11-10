@@ -1,7 +1,7 @@
-winexe (1.1~git468f3a7) UNRELEASED; urgency=low
+winexe (1.1~git7b9ed9-1) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #629100)
 
- -- Fabio Fantoni <fabio.fantoni@m2r.biz>  Mon, 14 Oct 2013 14:22:18 +0200
+ -- Fabio Fantoni <fabio.fantoni@m2r.biz>  Sun, 10 Nov 2013 19:22:06 +0100
 
 
